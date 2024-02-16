@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import MainPage from "../layouts/mainPage";
-// import LoginPage from "../layouts/loginPage";
-// import Users from "./users";
 
 const NavBar = () => {
   return (
@@ -11,7 +8,7 @@ const NavBar = () => {
         <Link className='nav-link' to="/">Main</Link>
       </li>
       <li className="nav-item">
-        <Link className='nav-link' to="/loginPage">Login</Link>
+        <Link className='nav-link' to="/login">Login</Link>
       </li>
       <li className="nav-item">
         <Link className='nav-link' to="/users">Users</Link>
